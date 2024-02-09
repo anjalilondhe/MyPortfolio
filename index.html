@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Home -->
+    <div class="bodyimg" id="footer1" style="background-image: url('./Images/bg_image.JPG');">
+        <div class="content">
+            <div class="content1" id="section1">
+                <h2 data-aos="fade-right">Hello,</h2>
+                <h3 data-aos="fade-left">I am Anjali Londhe,</h3>
+                <h5 data-aos="fade-right">Full Stack Developer</h5>
+                <button type="button" onclick="myFunction(this)" class="btn btn-dark btnhover" data-aos="zoom-in-up"><a href="#section2" id="mywork">view my work<i  class="fa-sharp fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+                    <i  class="fa-solid fa-arrow-down" style="display: none; margin-left: 10px;"></i>
+                </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark sticky">
+        <div class="container bar" id="section2">
+            <nav class="navbar navbar-expand-md">
+                <a href="#" class="navbar-brand fs-1 ms-3 text-white"></a>
+                <button class="  navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+                    <i class="fa-solid fa-bars" style="color: white;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="btn">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link mx-3 active" data-aos="flip-right">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#second" class="nav-link mx-3" id="first" data-aos="flip-left">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#third" class="nav-link mx-3" data-aos="flip-right">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#fourth" class="nav-link mx-3" data-aos="flip-left">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#fifth" class="nav-link mx-3" data-aos="flip-right">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- About section -->
+    <div class="container-fluid aboutheight">
+        <div class="container" id="second">
+            <div style="margin-top: 50px;">
+                <h2 class="text-center show header1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" style="color: black">ABOUT</h2>
+                <div class="row mt-5">
+                    <div class="col-md-3 icon1" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="shape" data-mdb-animation-on-scroll="repeat">
+                            <div class="hexagon">
+                                <i class="fa-sharp fa-solid fa-forward-fast icon"></i>
+                               </div>
+                        </div>
+                        <div class="shape_content">
+                            <h3 class="shape_heading">Fast</h3>
+                            <p>Fast load times and lag free interaction, my highest priority.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 icon1" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="shape">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-laptop icon"></i>
+                            </div>
+                        </div>
+                        <div class="shape_content">
+                            <h3>Responsive</h3>
+                            <p>My layouts will work on any device, big or small.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 icon1" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="shape">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-lightbulb icon"></i>
+                            </div>
+                        </div>
+                        <div class="shape_content">
+                            <h3>Intuitive</h3>
+                            <p>Strong preference for easy to use,</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 icon1" data-aos="fade-up" data-aos-duration="4000">
+                        <div class="shape">
+                            <div class="hexagon">
+                                <i class="fa-solid fa-plane-departure icon"></i>
+                            </div>
+                        </div>
+                        <div class="shape_content">
+                            <h3>Dynamic</h3>
+                            <p>Websites don't have to be static, I love making pages come to life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 abouttop">
+                    <img class="myimage" data-aos="flip-left" src="./Images/photo2.jpg" alt="Image">
+                </div>
+                <div class="col-lg-6 abouttop" data-aos="flip-right">
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #04c2c9;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left;margin-left: 20px;font-size: larger;"><span>HTML</span></div>
+                        </div>
+                        <div style="margin-left: 30px; font-size: larger;"><span>90%</span></div>
+                    </div><br>
+
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #04c2c9;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left; margin-left: 20px;width: 50px;font-size: larger;"><span>CSS</span></div>
+                        </div>
+                        <div style="margin-left: 30px;font-size: larger;"><span>90%</span></div>
+                    </div><br>
+
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #04c2c9;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left;margin-left: 20px;width: 50px;font-size: larger;"><span>BOOTSTRAP 5</span></div>
+                        </div>
+                        <div style="margin-left: 30px;font-size: larger;"><span>90%</span></div>
+                    </div><br>
+
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;background-color: #04c2c9;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left;margin-left: 20px;width: 50px;font-size: larger;"><span>JAVA SCRIPT</span></div>
+                        </div>
+                        <div style="margin-left: 125px;font-size: larger;"><span>75%</span></div>
+                    </div><br>
+                    
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #04c2c9;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left;margin-left: 20px;width: 50px;font-size: larger;"><span> JQUERY</span></div>
+                        </div>
+                        <div style="margin-left: 30px;font-size: larger;"><span>90%</span></div>
+                    </div><br>
+
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #04c2c9;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left;margin-left: 20px;width: 50px;font-size: larger;"><span>JAVA</span></div>
+                        </div>
+                        <div style="margin-left: 30px;font-size: larger;"><span>90%</span></div>
+                    </div><br>
+
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #04c2c9;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div style="text-align: left;margin-left: 20px;width: 50px;font-size: larger;"><span>My SQL</span></div>
+                        </div>
+                        <div style="margin-left: 30px;font-size: larger;"><span>90%</span></div>
+                    </div><br>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="container-fluid projects">
+        <div class="container" id="third">
+            <div>
+                <h2 class="text-center project" data-aos="fade-left" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">PROJECTS</h2>
+            </div>
+            <div>
+                <button class="btn btn-default filter-button" data-filter="all" id="all1" data-aos="flip-right">All</button>
+                <button class="btn btn-default filter-button" data-filter="htmlcss" data-aos="flip-left">HTML & CSS</button>
+                <button class="btn btn-default filter-button" data-filter="bootstrap" data-aos="flip-right">BOOTSTRAP</button>
+                <button class="btn btn-default filter-button" data-filter="bjs" data-aos="flip-left">JAVASCRIPT</button>
+                <button class="btn btn-default filter-button" data-filter="bjquery" data-aos="flip-right">JQUERY</button>     
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-4 filter center bjquery bootstrap">
+                    <div class="container1">
+                        <img src="./Images/furniture_website.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using bootstrap & jquery</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal10">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">Furniture Website</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- <img class="model_image" src="./Images/furniture_website.jpg" alt="Image"> -->
+                                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="model_image" src="./Images/furniture_website.jpg" alt="Images" class="image">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="model_image" src="./Images/fur_shop.jpg" alt="Images" class="image">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="model_image" src="./Images/fur_services.jpg" alt="Images" class="image">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="model_image" src="./Images/fur_team.jpg" alt="Images" class="image">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="model_image" src="./Images/fur_blog.jpg" alt="Images" class="image">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="model_image" src="./Images/fur_contact.jpg" alt="Images" class="image">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="model_image" src="./Images/fur_cart.jpg" alt="Images" class="image">
+                                                </div>
+                                            </div>
+                                            <div class="mt-4 model_description">
+                                                <p>Webpage is created using bootstrap 5, jquery, HTML & styling it using CSS properties</p>
+                                                <button type="button" class="webbutton"><a href="https://anjalilondhe.github.io/Furniture-Website/Aboutus.html" target="_blank">Visit site</a></button>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/FaceBook_login_page.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal0">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel0" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">FaceBook login webpage</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="model_image" src="./Images/FaceBook_login_page.jpg" alt="Image">
+                                        <div class="mt-4 model_description">
+                                            <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                            <p class="viewcode"><a href="./FaceBook_login_page.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                            <button type="button" class="webbutton"><a href="./Images/FaceBook_login_page.html" target="_blank">View Webpage</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center bjquery">
+                    <div class="container1">
+                        <img src="./Images/portfolio_gallary.jpeg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using bootstrap & jquery</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal9">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">Portfolio gallary</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="model_image" src="./Images/portfolio_gallary.jpeg" alt="Image">
+                                        <div class="mt-4  model_description">
+                                            <p>Webpage is created using bootstrap & jquery, styling it using CSS properties</p>
+                                            <p class="viewcode"><a href="./Images/portfolio_gallary.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                            <button type="button" class="webbutton"><a href="./Images/portfolio_gallary.html" target="_blank">View Webpage</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/code_editor_webpage.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">Code editor Webpage</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <img class="model_image" src="./Images/code_editor_webpage.jpg" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/code_editor_webpage.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/code_editor_webpage.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center bootstrap">
+                    <div class="container1">
+                        <img src="./Images/footer.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel2">Footer webPage</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="show2">
+                                            <img class="model_image" src="./Images/footer.jpg" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/footer.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/footer.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/Landing page.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel3">Landing Webpage</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="show2">
+                                            <img class="model_image" src="./Images/Landing page.png" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/Landing_page.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/Landing_page.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/polarideImages.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Created using CSS properties</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal4">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel4">Polaride Images</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="show2">
+                                            <img class="model_image" src="./Images/polarideImages.jpg" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using BOOTSTRAP 5 & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/Polaride_Images.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/Polaride_Images.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/SurveyForm.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal5">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel5">Survey Form</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="show2">
+                                            <img class="model_image" src="./Images/SurveyForm.jpg" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/Survey_form.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/Survey_form.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/TechnicalDOcumentationPage.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal6">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel6">Technical Documentation Page</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="show2">
+                                            <img class="model_image" src="./Images/TechnicalDOcumentationPage.jpg" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/Technical_documentation_page.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/Technical_documentation_page.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 filter center htmlcss">
+                    <div class="container1">
+                        <img src="./Images/YouTubePage.jpg" alt="Images" class="image" data-aos="zoom-in">
+                        <div class="overlay">
+                            <div class="text">
+                                <p class="overlay_title">Using Html & Css</p>
+                                <button type="button" class="btn" id="overlay_button" data-bs-toggle="modal" data-bs-target="#exampleModal7">Read More</button>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel7">You tube page</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="show2">
+                                            <img class="model_image" src="./Images/YouTubePage.jpg" alt="Image">
+                                            <div class="mt-4  model_description">
+                                                <p>Webpage is created using HTML & styling it using CSS properties</p>
+                                                <p class="viewcode"><a href="./Images/YouTube_Page.java" target="_blank">View code</a></p>
+                                                    <!-- <i class="fa fa-download" style="margin-left: 10px;text-decoration: none;"></i> -->
+                                                <button type="button" class="webbutton"><a href="./Images/YouTube_Page.html" target="_blank">View Webpage</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog -->
+    <div class="container blogheight">
+        <div>
+            <h1 class="text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" id="fourth">BLOG</h1>
+        </div>
+        <!-- <p class="label">Full Stack Java Developer</p> -->
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-lg-3">
+                <table class="info">
+                    <tr>
+                        <td><i class="fa-solid fa-envelope"></i></td>
+                        <td>anjalilondhe8231@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone"></i></td>
+                        <td>+91 7020819942</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-location-dot"></i></td>
+                        <td>Kothrud, Pune</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-linkedin-in"></i></td>
+                        <td><a class="tablelink" href="https://www.linkedin.com/in/anjali-londhe-7395b9246/" target="_blank">https://www.linkedin.com/in/anjali-londhe-7395b9246/</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-github"></i></td>
+                        <td><a class="tablelink" href="https://github.com/anjalilondhe" target="_blank">https://github.com/anjalilondhe</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-3 column1" id="c1">
+                <a href="./Images/pythonUdemy.jpg" target="_blank"><img class="blogimages" data-aos="zoom-in" src="./Images/pythonUdemy.jpg" alt="Image"></a>
+                <div class="mt-3">
+                    <h6>Python course Udemy Cerificate</h6>
+                    <p class="blogcontent">Completed Basics of python</p>
+                </div>
+            </div>
+            <div class="col-lg-3 column2" id="c2">
+                <a href="./Images/Anjali Londhe.jpg" target="_blank"><img class="blogimages" data-aos="zoom-in" src="./Images/Anjali Londhe.jpg" alt="Image"></a>
+                <div class="mt-3">
+                    <h6>Internship Certificate</h6>
+                    <p class="blogcontent">Completed two months of internship in HunarPro skilling.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 column3" id="c3">
+                <a href="./Images/DeepLearningUdemy.jpg" target="_blank"><img class="blogimages" data-aos="zoom-in" src="./Images/DeepLearningUdemy.jpg" alt="Image"></a>
+                <div class="mt-3">
+                    <h6>Deeplaearning Course Udemy Certificate</h6>
+                    <p class="blogcontent">Completed basics of deep learning</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="container-fluid contact" style="background-color: #252934;height: 650px;">
+        <div class="container" id="fifth">
+            <h2 class="text-center mt-5" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="1000" data-aos-duration="1000" style="color: white;">CONTACT</h2>
+            <p class="text-center mx-auto mb-5" style="color: lightblue;">Have a question or want to work together?</p>
+            <div class="row justify-content-center">
+                <div class="col-4"></div>
+                <div class="col-lg-4" data-aos="flip-up">
+                   <form>
+                    <input type="text" class="form-control input" placeholder="Name" name="name" required><br>
+                    <input type="email" class="form-control input" placeholder="Email Id" required><br>
+                    <textarea name="message" id="message" cols="55" rows="5" placeholder="Your message"></textarea> <br>
+                    <button type="submit" class="btn" id="btn1">Submit</button>
+                   </form>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container text-center">
+            <a href="#footer1"><i class="fa-solid fa-angles-up"></i></a>
+            <div class="footer_icons">
+                <a href="https://www.linkedin.com/in/anjali-londhe-7395b9246/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/anjalilondhe"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/londheanjali1"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p class="footer_content">ANJALI LONDHE <span style="color: rgb(249, 73, 178, 1);">@2024</span></p>
+        </div>
+    </div>
+    <script>
+        AOS.init();
+        //home
+        $(document).ready(function(){
+            $(".btnhover").mouseover(function(){
+                $(".fa-arrow-down").show();
+                $(".fa-arrow-right").css({"display":"none"});
+            });
+            $(".btnhover").mouseout(function(){
+                $(".fa-arrow-right").show();
+                $(".fa-arrow-down").hide();
+            });
+        });
+        //Project
+        $(document).ready(function(){
+            $(".filter-button").click(function(){
+                var value = $(this).attr('data-filter');
+
+                if(value=="all"){
+                    $('.filter').show('1000');
+                }
+                else{
+                    $(".filter").not('.'+value).hide('3000');
+                    $(".filter").filter('.'+value).show('1000');
+                }
+            });
+                if($(".filter-button").removeClass("active")){
+                $(this).removeClass("active");
+                }
+                $(this).addClass("active");
+            });
+        
+            // blog
+            $(document).ready(function(){
+        $(".column1").hover(function(){
+            $("h5").css("color","blue");
+            $("#c2").css("opacity","0.30");
+            $("#c3").css("opacity","0.30");
+        });
+        $(".column1").mouseout(function(){
+            $("h5").css("color","black");
+            $("#c2").css("opacity","1");
+            $("#c3").css("opacity","1");
+        });
+
+        $(".column2").hover(function(){
+            $("h5").css("color","blue");
+            $("#c1").css("opacity","0.30");
+            $("#c3").css("opacity","0.30");
+        });
+        $(".column2").mouseout(function(){
+            $("h5").css("color","black");
+            $("#c1").css("opacity","1");
+            $("#c3").css("opacity","1");
+        });
+
+        $(".column3").hover(function(){
+            $("h5").css("color","blue");
+            $("#c1").css("opacity","0.30");
+            $("#c2").css("opacity","0.30");
+        });
+        $(".column3").mouseout(function(){
+            $("h5").css("color","black");
+            $("#c1").css("opacity","1");
+            $("#c2").css("opacity","1");
+        });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        *{
+            background-color: #252934;;
+        }
+        /* #header{
+        color: white;
+        box-sizing: border-box;
+        border-bottom: 2px solid white;
+        width: 180px;
+       } */
+       /* #line{
+        color: rgb(131, 207, 232);
+        text-align: center;
+        margin-top: 10px;
+       } */
+       .input{
+        margin-top: 30px;
+        border-color: 2px solid #252934;
+        background-color: #161c2a;
+        border: none;
+        outline: none;
+       }
+       #btn1{
+        float: right;
+        padding: 12px 15px;
+        border: 2px solid white;
+        margin-top: 25px;
+        background-color: rgb(26, 70, 131);
+        color: white;
+        width: 40%;
+       
+       } 
+        textarea{
+        background-color: #161c2a;
+        border: none;
+        color: white;
+        width: 100%;
+       } 
+       #message{
+        border:none;
+        outline: none;
+       }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: #252934;">
+        <div class="container">
+            <h2 class="text-center" style="color: white;">CONTACT</h2>
+            <p class="text-center mx-auto mb-5" style="color: lightblue;">Have a question or want to work together?</p>
+            <div class="row justify-content-center">
+                <div class="col-4"></div>
+                <div class="col-lg-4">
+                    <input type="text" class="form-control input" placeholder="Name" name="name" required><br>
+                    <input type="email" class="form-control input" placeholder="Email Id" required><br>
+                    <textarea name="message" id="message" cols="55" rows="5" placeholder="Your message"></textarea> <br>
+                    <button type="submit" class="btn" id="btn1">Submit</button>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        $(document).ready(function(){
+            $("input").click(function(){
+                $("input").css("background-color","#161c2a");
+            });
+        });
+
+        $(document).ready(function(){
+            $("textarea").click(function(){
+                $("textarea").css("border-style","solid");
+                $("textarea").css("border-color","#161c2a");
+            });
+        });
+    </script> -->
+</body>
+</html>
